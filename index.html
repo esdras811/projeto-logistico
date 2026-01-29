@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimasLog | Soluções em Logística</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="carnaval-alert" id="carnavalBanner">
+        <i class="fas fa-mask"></i>
+        <span><strong>Plantão de Carnaval:</strong> Nossa logística não cai no samba, ela entrega! Operação 24h.</span>
+        <i class="fas fa-music"></i>
+    </div>
+
+    <header>
+        <div class="logo-bar">
+            <div class="container">
+                <div class="logo">
+                    <span class="brand">SIMAS<span class="blue-text">LOG</span></span>
+                    <p class="tagline">SOLUÇÕES EM LOGÍSTICA</p>
+                </div>
+                <div class="menu-icon">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-bar">
+            <div class="container">
+                <div class="contact-icons">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fas fa-envelope"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="phone-number">31 3622 9483</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="line"></div>
+            <h1>TRANSPORTE <br> <strong>PERSONALIZADO</strong></h1>
+            <p>FROTA COM CONTROLE E GERENCIAMENTO DE RISCO</p>
+        </div>
+    </section>
+
+    <section class="tracking-section">
+        <div class="container">
+            <div class="tracking-box">
+                <h2><i class="fas fa-truck-loading"></i> Rastrear Minha Carga</h2>
+                <div class="input-group">
+                    <input type="text" id="trackingInput" placeholder="Ex: SL123456">
+                    <button onclick="buscarRastreio()">Rastrear Agora</button>
+                </div>
+                <div id="resultadoRastreio"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="hexagon-icon">
+                <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h2>GERAR VALOR PARA O SEU NEGÓCIO É O QUE NOS MOVE.</h2>
+            <p class="description">
+                Com atuação em todo o território nacional, a <strong>SIMASLOG</strong> é especializada no transporte de cargas de alto valor. Utilizamos tecnologia GPRS e satelital para garantir que, mesmo durante o <strong>Carnaval</strong> ou feriados prolongados, sua mercadoria chegue intacta e no prazo.
+            </p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container card-wrapper">
+            <div class="service-card">
+                <i class="fas fa-boxes"></i>
+                <h3>Carga Fracionada</h3>
+                <p>Ideal para otimizar custos em pequenas remessas.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>Lotação / Full Truck</h3>
+                <p>Veículos dedicados para máxima agilidade logística.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-user-shield"></i>
+                <h3>Carga Monitorada</h3>
+                <p>Gerenciamento de risco rigoroso 24 horas por dia.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-column">
+                <span class="brand" style="color:#fff">SIMAS<span class="red-text">LOG</span></span>
+                <p class="footer-about">Segurança, tecnologia e compromisso com o prazo. Sua carga em boas mãos.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Rastreio</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <p><i class="fas fa-phone"></i> 31 3622 9483</p>
+                <p><i class="fas fa-envelope"></i> comercial@simaslog.com.br</p>
+            </div>
+        </div>
+        <div class="copyright-bar">
+            <p>&copy; 2026 SIMASLOG. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
