@@ -38,9 +38,18 @@ Mais do que reproduzir um layout, o objetivo foi aprimorar a experiência do usu
 - Design limpo e intuitivo  
 - Navegação fluida  
 - Uso de formas geométricas e animações sutis  
-- Foco na simplicidade e clareza da informação  
+- Foco na simplicidade e clareza da informação 
 
----
+
+
+
+
+
+
+
+
+
+
 
 
 
